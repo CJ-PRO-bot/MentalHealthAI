@@ -20,36 +20,6 @@ Build a basic Streamlit dashboard to visualize health trends
 
 Support longer-term goals of studying mental health from a scientific, data-driven perspective
 
-## project structure
-
-healthcare-bhutan/
-│
-├── data/
-│   ├── raw/                # Raw WHO datasets (CSV)
-│   ├── processed/          # Cleaned and preprocessed data
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb   # Jupyter EDA (cleaning, plots)
-│   ├── 02_feature_engineering.ipynb (upcoming)
-│   ├── 03_modeling.ipynb           (upcoming)
-│
-├── src/
-│   ├── data_loader.py      # Data loading + initial cleaning functions
-│   ├── preprocessing.py     # Advanced preprocessing for modeling
-│   ├── train_model.py       # Simple ML training script
-│   ├── utils.py             # Helper utilities
-│
-├── app/
-│   ├── streamlit_app.py     # Interactive dashboard
-│
-├── models/
-│   ├── life_expectancy_model.pkl (upcoming)
-│
-├── starter.py               # Runs Step 1 cleaning pipeline
-├── run_preprocessing.py     # Runs Step 2 preprocessing
-├── requirements.txt         # Dependencies
-└── README.md
-
 ## Dataset Source
 All health indicators are taken from:
 
