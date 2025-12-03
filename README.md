@@ -21,6 +21,7 @@ Build a basic Streamlit dashboard to visualize health trends
 Support longer-term goals of studying mental health from a scientific, data-driven perspective
 
 ## project structure
+
 healthcare-bhutan/
 │
 ├── data/
